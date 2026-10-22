@@ -1,5 +1,5 @@
-const User = require('../../models/User');
-const generateToken = require('../../utils/generateToken');
+const User = require('../models/User');
+const generateToken = require('../utils/generateToken');
 
 // Register user (uses MongoDB + bcrypt via User model)
 const registerUser = async (req, res) => {
